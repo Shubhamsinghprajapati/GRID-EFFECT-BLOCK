@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container{
+            background: #eee;
+            width: 700px;
+            margin: 50px 0 0 50px;
+            height: 800px;
+            display: grid;
+            grid-template-columns: 50% 50% 50%;
+            grid-template-rows: 50% 50% 50%;
+
+            grid-gap: 40px;
+        }
+        .container .items1:hover
+        {
+            z-index: 1;
+            transform: scale(1.25);
+            box-shadow: 0 25px 40px,rgba(0,0, 0,.5);
+        }
+        .container .items2:hover
+        {
+            z-index: 1;
+            transform: scale(1.25);
+            box-shadow: 0 25px 40px,rgba(0,0, 0,.5);
+        }
+
+        .container .items3:hover
+        {
+            z-index: 1;
+            transform: scale(1.25);
+            box-shadow: 0 25px 40px,rgba(0,0, 0,.5);
+        }
+        .container .items4:hover
+        {
+            z-index: 1;
+            transform: scale(1.25);
+            box-shadow: 0 25px 40px,rgba(0,0, 0,.5);
+        }
+        .container .items5:hover
+        {
+            z-index: 1;
+            transform: scale(1.25);
+            box-shadow: 0 25px 40px,rgba(0,0, 0,.5);
+        }
+        .container .items6:hover
+        {
+            z-index: 1;
+            transform: scale(1.25);
+            box-shadow: 0 25px 40px,rgba(0,0, 0,.5);
+        }
+        .items1{
+            background: green;
+            background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0,0,0.6)) , url(background.jpg);
+            background-position: center;
+            background-size: cover;
+             }
+        .items2{
+            background: red;
+            background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0,0,0.6)) , url(background2.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .items3{
+            background: purple;
+            background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0,0,0.6)) , url(background3.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .items4{
+            background: gray;
+            background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0,0,0.6)) , url(background4.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .items5{
+            background: yellow;
+            background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0,0,0.6)) , url(background5.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .items6{
+            background: orange;
+            background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0,0,0.6)) , url(background6.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+    </style>
+    <h1>GRID BLOCK EFFECT </h1>
+    <div class="container">
+    
+    <div class="items1">fist</div>
+    <div class="items2">second</div>
+    <div class="items3">third</div>
+    <div class="items4">fourth</div>
+    <div class="items5">fifth</div>
+    <div class="items6">sixth</div>
+    </div>
+</div>
+</body>
+</html>
